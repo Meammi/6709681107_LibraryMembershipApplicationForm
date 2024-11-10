@@ -12,7 +12,7 @@
             <form>
                 <div class="container">
                     <div class="name">
-                        <label for="fnameth">Name (ภาษาไทย)</label>
+                        <label for="fnameth">Name (ภาษาไทย) <span style="color: red;">*</span></label>
                         <input class="text" type="text" id="fnameth" placeholder="First" required>
                     </div>
                     <div class="name">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="container">
                     <div class="name">
-                        <label for="fnameeng">Name (English)</label>
+                        <label for="fnameeng">Name (English) <span style="color: red;">*</span></label>
                         <input class="text" type="text" id="fnameeng" placeholder="First" required>
                     </div>
                     <div class="name">
@@ -30,26 +30,26 @@
                         <input class="text" type="text" id="lnameeng" placeholder="Last" required>
                     </div>
                 </div>
-                <p>Gender</p>
+                <p>Gender<span style="color: red;">*</span></p>
                 <div class="container">
                     <div class="gender">
-                        <input type="radio" id="male" name="gender">
-                        <label for="gender"> Male</label required>       
+                        <input type="radio" id="male" name="gender"required>
+                        <label for="gender"> Male</label>       
                     </div>
                     <div class="gender">
                         <input type="radio" id="male" name="gender">
-                        <label for="gender"> Female</label required>
+                        <label for="gender"> Female</label>
                     </div>
                     <div class="gender">
                         <input type="radio" id="male" name="gender">
-                        <label for="gender"> Other</label required>
+                        <label for="gender"> Other</label>
                     </div>
                 </div>
-                <p>Student ID</p>
+                <p>Student ID<span style="color: red;">*</span></p>
                 <div class="container">
-                    <input class="text-id" type="text" id="stuid" placeholder="Student ID" required>
+                    <input class="text-id" type="number" id="stuid" placeholder="Student ID" required>
                 </div>
-                <label for="faculty" id="faculty">Faculty</label>
+                <label for="faculty" id="faculty">Faculty<span style="color: red;">*</span></label>
                 <select name="faculty" id="faculty" required>
                     <option value="1">Faculty of Law</option>
                     <option value="2">Faculty of Political Science</option>
@@ -67,12 +67,12 @@
                     <option value="14">Faculty of Nursing</option>
                     <option value="15">Faculty of Public Health</option>
                 </select>
-                <p>Email</p>
+                <p>Email<span style="color: red;">*</span></p>
                 <div class="container">
                     <input class="text-id" type="email" id="stuid" placeholder="example@gmail.con" required>
                 </div>
                 <label for="genrebook" id="genrebook">The genre of book that is your favorite.</label>
-                <select name="faculty" id="faculty" required>
+                <select name="faculty" id="faculty">
                     <option value="1">Action & Adventure</option>
                     <option value="2">Mystery</option>
                     <option value="3">Horror</option>
@@ -81,8 +81,18 @@
                     <option value="6">Romance</option>
                     <option value="7">Other</option>
                 </select>
+                <div class="checkbox">
+                    <input type="checkbox" id="needinfo" name="needinfo">
+                    <label for="needinfo">Do you want to receive library news and information via email?</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="rule" name="rule" required>
+                    <label for="rule">
+                        Do you accept the <a href="index.html">library rules?</a><span style="color: red;">*</span></label>
+                </div>
+                <input class="submit" type="submit" value="Submit">
             </form>
         </div>
     </div>
-</body>
+</body> 
 </html>

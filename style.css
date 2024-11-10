@@ -60,3 +60,12 @@ select{
     padding: 8px 12px;
     margin-bottom: 1%;
 }
+.submit{
+    width: 20%;
+    text-align: center;
+    padding: 8px;
+}
+.checkbox{
+    display: inline-block;
+    margin-bottom: 1%;
+}
