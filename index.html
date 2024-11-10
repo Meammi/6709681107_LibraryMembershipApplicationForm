@@ -11,26 +11,43 @@
         <div class="main">
             <form>
                 <div class="container">
-                    <div class="input-container">
-                        <label for="fnameth">Name (ภาษาไทย)</label><br>
-                        <input type="text" id="fnameth" placeholder="First">
+                    <div class="name">
+                        <label for="fnameth">Name (ภาษาไทย)</label>
+                        <input class="text" type="text" id="fnameth" placeholder="First">
                     </div>
-                    <div class="input-container">
+                    <div class="name">
                         <br>
-                        <input type="text" id="lnameth" placeholder="Last">
+                        <input class="text" type="text" id="lnameth" placeholder="Last">
                     </div>
                 </div>
                 <div class="container">
-                    <div class="input-container">
-                        <label for="fnameeng">Name (English)</label><br>
-                        <input type="text" id="fnameeng" placeholder="First">
+                    <div class="name">
+                        <label for="fnameeng">Name (English)</label>
+                        <input class="text" type="text" id="fnameeng" placeholder="First">
                     </div>
-                    <div class="input-container">
+                    <div class="name">
                         <br>
-                        <input type="text" id="lnameeng" placeholder="Last">
+                        <input class="text" type="text" id="lnameeng" placeholder="Last">
                     </div>
                 </div>
+                <p>Gender</p>
                 <div class="container">
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender">
+                        <label for="gender"> Male</label>       
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender">
+                        <label for="gender"> Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="male" name="gender">
+                        <label for="gender"> Other</label>
+                    </div>
+                </div>
+                <p>Student ID</p>
+                <div class="container">
+                    <input class="text-id" type="text" id="stuid" placeholder="Student ID">
                 </div>
             </form>
         </div>

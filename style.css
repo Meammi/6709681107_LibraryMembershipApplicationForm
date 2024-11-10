@@ -9,7 +9,7 @@ html,body{
     line-height: 1.5;
     min-height: 100vh;
 }
-input{
+.text{
     width: 90%;
     padding: 8px 12px;
 }
@@ -32,10 +32,26 @@ input [type=text]{
     padding: 1%;
     background-color: rgb(249, 249, 249);
 }
+form{
+    display: flex;
+    flex-direction: column;
+}
 .container{
     min-width: 100%;
+    margin-bottom: 1%;
     display: flex;
 }
-.input-container{
+p{
+    min-width: 100%;
+}
+.name{
     min-width: 50%;
+}
+.gender{
+    display: flex;
+    margin: 0 2% 0 2%;
+}
+.text-id{
+    width: 95%;
+    padding: 8px 12px;
 }
