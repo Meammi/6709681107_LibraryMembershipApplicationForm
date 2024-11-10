@@ -13,42 +13,74 @@
                 <div class="container">
                     <div class="name">
                         <label for="fnameth">Name (ภาษาไทย)</label>
-                        <input class="text" type="text" id="fnameth" placeholder="First">
+                        <input class="text" type="text" id="fnameth" placeholder="First" required>
                     </div>
                     <div class="name">
                         <br>
-                        <input class="text" type="text" id="lnameth" placeholder="Last">
+                        <input class="text" type="text" id="lnameth" placeholder="Last" required>
                     </div>
                 </div>
                 <div class="container">
                     <div class="name">
                         <label for="fnameeng">Name (English)</label>
-                        <input class="text" type="text" id="fnameeng" placeholder="First">
+                        <input class="text" type="text" id="fnameeng" placeholder="First" required>
                     </div>
                     <div class="name">
                         <br>
-                        <input class="text" type="text" id="lnameeng" placeholder="Last">
+                        <input class="text" type="text" id="lnameeng" placeholder="Last" required>
                     </div>
                 </div>
                 <p>Gender</p>
                 <div class="container">
                     <div class="gender">
                         <input type="radio" id="male" name="gender">
-                        <label for="gender"> Male</label>       
+                        <label for="gender"> Male</label required>       
                     </div>
                     <div class="gender">
                         <input type="radio" id="male" name="gender">
-                        <label for="gender"> Female</label>
+                        <label for="gender"> Female</label required>
                     </div>
                     <div class="gender">
                         <input type="radio" id="male" name="gender">
-                        <label for="gender"> Other</label>
+                        <label for="gender"> Other</label required>
                     </div>
                 </div>
                 <p>Student ID</p>
                 <div class="container">
-                    <input class="text-id" type="text" id="stuid" placeholder="Student ID">
+                    <input class="text-id" type="text" id="stuid" placeholder="Student ID" required>
                 </div>
+                <label for="faculty" id="faculty">Faculty</label>
+                <select name="faculty" id="faculty" required>
+                    <option value="1">Faculty of Law</option>
+                    <option value="2">Faculty of Political Science</option>
+                    <option value="3">Faculty of Economics</option>
+                    <option value="4">Faculty of Social Administration</option>
+                    <option value="5">Faculty of Sociology and Anthropology</option>
+                    <option value="6">Faculty of Liberal Arts</option>
+                    <option value="7">Faculty of Journalism and Mass Communication</option>
+                    <option value="8">Faculty of Science and Technology</option>
+                    <option value="9">Faculty of Engineering</option>
+                    <option value="10">Faculty of Architecture and Planning</option>
+                    <option value="11">Faculty of Medicine</option>
+                    <option value="12">Faculty of Allied Health Sciences</option>
+                    <option value="13">Faculty of Dentistry </option>
+                    <option value="14">Faculty of Nursing</option>
+                    <option value="15">Faculty of Public Health</option>
+                </select>
+                <p>Email</p>
+                <div class="container">
+                    <input class="text-id" type="email" id="stuid" placeholder="example@gmail.con" required>
+                </div>
+                <label for="genrebook" id="genrebook">The genre of book that is your favorite.</label>
+                <select name="faculty" id="faculty" required>
+                    <option value="1">Action & Adventure</option>
+                    <option value="2">Mystery</option>
+                    <option value="3">Horror</option>
+                    <option value="4">Thriller & Suspense</option>
+                    <option value="5">Historical Fiction</option>
+                    <option value="6">Romance</option>
+                    <option value="7">Other</option>
+                </select>
             </form>
         </div>
     </div>
